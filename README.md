@@ -609,7 +609,7 @@ Uncomment all the properties in **process-services-1.9.0.3\tomcat\webapps\activi
   <tr>
     <td>2</td>
     <td>Script</td>
-    <td>execution.setVariable("emailid", 'malaivasan.d@muraai.com');</td>
+    <td>execution.setVariable("emailid", 'example@gmail.com');</td>
   </tr>
 </table>
 
@@ -1127,7 +1127,7 @@ You use structural components to group multiple components in a sub process to r
 
 **3.1 Sub-process**
 
-A sub process is a single activity that contains activities, gateways, and events which form a process. A sub process is completely embedded inside a parent process. You can use a sub process to create a new scope for events. Events that are thrown during execution of the sub process, can be caught by **[Boundary events]**(https://docs.alfresco.com/process-services1.8/topics/boundary_events.html) on the boundary of the sub process, creating a scope for that event limited to just the sub process. 
+A sub process is a single activity that contains activities, gateways, and events which form a process. A sub process is completely embedded inside a parent process. You can use a sub process to create a new scope for events. Events that are thrown during execution of the sub process, can be caught by Boundary events on the boundary of the sub process, creating a scope for that event limited to just the sub process. 
 
 Sub-processes must have the following characteristics:
 
