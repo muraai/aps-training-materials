@@ -837,6 +837,8 @@ Create Document Template and upload the document to
 
 For more document template related information, refer this [link](https://docs.alfresco.com/process-services1.9/topics/document_templates.html)
 
+Example for College ID.docx document template [link](https://github.com/muraai/aps-training-materials/blob/master/College%20ID.docx)
+
 **Create Process And Add Variables Property**
 
 ![image alt text](./docsAssets/image_74.png)
