@@ -587,7 +587,7 @@ For script task, change the properties in both the files.
 
 	javascript.secure-scripting.instructions-before-callback=100
 
-Uncomment all the properties in process-services-1.9.0.3\tomcat\webapps\activiti-app\WEB-INF\classes\activiti\whitelisted-scripts.conf
+Uncomment all the properties in **process-services-1.9.0.3\tomcat\webapps\activiti-app\WEB-INF\classes\activiti\whitelisted-scripts.conf**
 
 **Example**
 
