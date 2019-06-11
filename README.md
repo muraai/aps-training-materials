@@ -30,13 +30,13 @@ The Alfresco Process Services Landing Page continues to provide a user interface
 
 The Landing Page is the starting point from which you can use:
 
-**[App Designe**r](https://docs.alfresco.com/process-services1.8/topics/App_Designer_app.html) - Design your process
+[App Designer](https://docs.alfresco.com/process-services1.8/topics/App_Designer_app.html) - Design your process
 
-**[My Task**s](https://docs.alfresco.com/process-services1.8/topics/task_app.html) - View your task inbox or queue
+[My Tasks](https://docs.alfresco.com/process-services1.8/topics/task_app.html) - View your task inbox or queue
 
-**[Profile management / Identity managemen**t](https://docs.alfresco.com/process-services1.8/topics/identity_management.html) - Manage user and group capabilities
+[Profile management / Identity management](https://docs.alfresco.com/process-services1.8/topics/identity_management.html) - Manage user and group capabilities
 
-**[Analytic**s](https://docs.alfresco.com/process-services1.8/topics/analytics_app.html)[ ](https://docs.alfresco.com/process-services1.8/topics/analytics_app.html)- Generate reports on process performance
+[Analytics](https://docs.alfresco.com/process-services1.8/topics/analytics_app.html)[ ](https://docs.alfresco.com/process-services1.8/topics/analytics_app.html)- Generate reports on process performance
 
 **Profile management** will appear will appear for you only if you are a user. This is where you manage your personal information. If you have administrator capabilities, then **Profile management** will be displayed as **Identity management**. Use this tile to access your profile page as well as to manage user, group, and capability management pages for your tenant or the whole system.
 
@@ -48,13 +48,13 @@ With the BPMN editor you can create process definitions using the capabilities o
 
 The BPMN editor is structured into several areas:
 
-**Palette - **On the left side of BPMN editor is the palette, which consists of collapse-able groups of  BPMN objects.
+**Palette** - On the left side of BPMN editor is the palette, which consists of collapse-able groups of  BPMN objects.
 
-**Canvas - **On the right side of BPMN editor is the canvas, where the BPMN objects can be added to create a process model.
+**Canvas** - On the right side of BPMN editor is the canvas, where the BPMN objects can be added to create a process model.
 
-**Properties sheet - **Below the canvas is the properties sheet, which shows the properties of the selected BPMN object on the canvas, or if no BPMN object is selected, the properties of the process itself. You can click on any of the properties to modify its value. The property sheet is collapse-able to allow you more screen space to view your process diagram.
+**Properties sheet** - Below the canvas is the properties sheet, which shows the properties of the selected BPMN object on the canvas, or if no BPMN object is selected, the properties of the process itself. You can click on any of the properties to modify its value. The property sheet is collapse-able to allow you more screen space to view your process diagram.
 
-**Toolbar - **The toolbar is displayed on the top with a set of grouped command icons.
+**Toolbar** - The toolbar is displayed on the top with a set of grouped command icons.
 
 There are two ways of adding BPMN objects to your process:
 
@@ -82,11 +82,11 @@ The following object groups are shown in a collapsible list in the palette. The 
 
 **Swimlanes**You use swimlanes to display activities in your process divided by business function or participant group.
 
-**1. Start Event:**** ****       **
+**1. Start Event:**
 
-**                                                                                                                                                                     **Start events define where a Process or Subprocess starts. The process engine supports different types of start events:
+Start events define where a Process or Subprocess starts. The process engine supports different types of start events:
 
-**1.1 None Start Event or Start Event - **
+**1.1 None Start Event or Start Event**
 
 A start event with an unspecified trigger.
 
@@ -326,9 +326,9 @@ This BPMN diagram example shows a process of getting water, giving it to a child
 
 An error start event triggers an event Sub-Process. An error start event can’t be used for starting a process instance.
 
-It is visualized as a circle with lightning icon inside. The icon is white inside.** **
+It is visualized as a circle with lightning icon inside. The icon is white inside.
 
-![image alt text](./docsAssets/image_11.png)**            **
+![image alt text](./docsAssets/image_11.png)
 
 <table>
   <tr>
@@ -364,7 +364,7 @@ It is visualized as a circle with lightning icon inside. The icon is white insid
 </table>
 
 
-**                                                                                      **
+
 
 **2. Activities:**
 
@@ -378,9 +378,9 @@ A user task enables you to model work to be done by a human actor. When process 
 
 ![image alt text](./docsAssets/image_12.png)
 
-**Example:**** **
+**Example:**
 
-**Create process ****and change the property for Variable**
+**Create process and change the property for Variable**
 
 ![image alt text](./docsAssets/image_13.png)
 
@@ -456,9 +456,8 @@ Required:
 
 **Set Initial value:**
 
-**	**![image alt text](./docsAssets/image_24.png)
+![image alt text](./docsAssets/image_24.png)
 
-**	**
 
 <table>
   <tr>
@@ -479,13 +478,13 @@ Required:
 </table>
 
 
-**	****Get Group Members:**
+**	Get Group Members:**
 
-**	**![image alt text](./docsAssets/image_25.png)
+![image alt text](./docsAssets/image_25.png)
 
-**	****Display Group Members:**
+**	Display Group Members:**
 
-**	**![image alt text](./docsAssets/image_26.png)
+![image alt text](./docsAssets/image_26.png)
 
 	![image alt text](./docsAssets/image_27.png)
 
@@ -501,7 +500,7 @@ Required:
 
 For backend code, refer this [link](https://github.com/muraai/aps-training-materials/blob/master/src/main/java/com/activiti/extension/conf/MyJavaDelegate.java).
 
-**	****Make the above java code to jar file  and put on the folder path:**
+**	Make the above java code to jar file  and put on the folder path:**
 
 C:\Program Files (x86)\alfresco\process-services-1.9.0.3\tomcat\webapps\activiti-app\WEB-INF\lib
 
@@ -515,7 +514,7 @@ A script task defines a JavaScript script or other script language (JSR-223 comp
 
 ![image alt text](./docsAssets/image_32.png)
 
-**	**For script task, change the properties in both the files.
+For script task, change the properties in both the files.
 
 1. C:\Program Files (x86)\alfresco\process-services-1.9.0.3\tomcat\lib\activiti-app.properties
 
@@ -589,7 +588,7 @@ Uncomment all the properties in process-services-1.9.0.3\tomcat\webapps\activiti
 
 ![image alt text](./docsAssets/image_33.png)
 
-**Change the property for**** **
+**Change the property for**
 
 <table>
   <tr>
@@ -616,31 +615,31 @@ Uncomment all the properties in process-services-1.9.0.3\tomcat\webapps\activiti
 
 You can enhance your business process with this automatic mail service task that sends emails to one or more recipients. The task supports normal email features such as cc lists, bcc lists, and HTML content. The mail task is depicted as a rounded rectangle with an envelope icon in the top-left corner.
 
-**	**![image alt text](./docsAssets/image_34.png)
+![image alt text](./docsAssets/image_34.png)
 
-**	**
+
 
 **Example**
 
-**	**![image alt text](./docsAssets/image_35.png)
+![image alt text](./docsAssets/image_35.png)
 
-**	**
 
-**	****Change the To Property:**
 
-**	**![image alt text](./docsAssets/image_36.png)
+**Change the To Property:**
+
+![image alt text](./docsAssets/image_36.png)
 
 **Change the Subject Property:**
 
-**	**![image alt text](./docsAssets/image_37.png)
+![image alt text](./docsAssets/image_37.png)
 
-**	****Change the Text Property:**
+**Change the Text Property:**
 
-**	**![image alt text](./docsAssets/image_38.png)
+![image alt text](./docsAssets/image_38.png)
 
-**	****Output**
+**Output**
 
-**	**![image alt text](./docsAssets/image_39.png)
+![image alt text](./docsAssets/image_39.png)
 
 **2.5 Rest Call Task**
 
@@ -735,29 +734,29 @@ For Decision task, change the property in both the files.
 
 	**validator.editor.dmn.expression=true**
 
-**	****Create Process And Add the property for variables**
+**Create Process And Add the property for variables**
 
-**	**![image alt text](./docsAssets/image_56.png)
+![image alt text](./docsAssets/image_56.png)
 
-**	**![image alt text](./docsAssets/image_57.png)
+![image alt text](./docsAssets/image_57.png)
 
-**	**
+
 
 **Submit the student details**
 
-**	**![image alt text](./docsAssets/image_58.png)
+![image alt text](./docsAssets/image_58.png)
 
-**	**
 
-**	****Student Form**
 
-**	**![image alt text](./docsAssets/image_59.png)
+**Student Form**
 
-**	****Marks Calculation**
+![image alt text](./docsAssets/image_59.png)
 
-**	**![image alt text](./docsAssets/image_60.png)
+**Marks Calculation**
 
-**	**
+![image alt text](./docsAssets/image_60.png)
+
+
 
 <table>
   <tr>
@@ -780,45 +779,45 @@ execution.setVariable("avg", execution.getVariable("total")/3);
 </table>
 
 
-**	**![image alt text](./docsAssets/image_61.png)
+![image alt text](./docsAssets/image_61.png)
 
-**	**
 
-**	****Grade Calculation**
 
-**	**![image alt text](./docsAssets/image_62.png)
+**Grade Calculation**
 
-**	**![image alt text](./docsAssets/image_63.png)
+![image alt text](./docsAssets/image_62.png)
 
-**	**![image alt text](./docsAssets/image_64.png)
+![image alt text](./docsAssets/image_63.png)
 
-**	**
+![image alt text](./docsAssets/image_64.png)
+
+
 
 **Add Rules**
 
-**	**![image alt text](./docsAssets/image_65.png)
+![image alt text](./docsAssets/image_65.png)
 
-**	**![image alt text](./docsAssets/image_66.png)
+![image alt text](./docsAssets/image_66.png)
 
-**	****Display Result**
+**Display Result**
 
-**	**![image alt text](./docsAssets/image_67.png)
+![image alt text](./docsAssets/image_67.png)
 
-**	**
 
-**	****Student Display Form**
 
-**	**![image alt text](./docsAssets/image_68.png)
+**Student Display Form**
 
-**	**![image alt text](./docsAssets/image_69.png)
+![image alt text](./docsAssets/image_68.png)
 
-**	**
+![image alt text](./docsAssets/image_69.png)
 
-**	****Output**
 
-**	**![image alt text](./docsAssets/image_70.png)
 
-**	**![image alt text](./docsAssets/image_71.png)
+**Output**
+
+![image alt text](./docsAssets/image_70.png)
+
+![image alt text](./docsAssets/image_71.png)
 
 For more examples, refer this [link](https://docs.alfresco.com/process-services1.9/topics/business_rules_decision_tables.html).
 
@@ -918,23 +917,23 @@ For more document template related information, refer this [link](https://docs.a
 </table>
 
 
-**	**
 
-**	**
+
+
 
 **Fill student Details**
 
-**	**![image alt text](./docsAssets/image_76.png)
+![image alt text](./docsAssets/image_76.png)
 
-**	**![image alt text](./docsAssets/image_77.png)
+![image alt text](./docsAssets/image_77.png)
 
-**	**
 
-**	****Map Variables**
 
-**	**![image alt text](./docsAssets/image_78.png)
+**Map Variables**
 
-**	**
+![image alt text](./docsAssets/image_78.png)
+
+
 
 <table>
   <tr>
@@ -1047,13 +1046,13 @@ For more document template related information, refer this [link](https://docs.a
 </table>
 
 
-**	**
 
-**	****Generate pdf**
 
-**	**![image alt text](./docsAssets/image_80.png)
+**Generate pdf**
 
-**	**
+![image alt text](./docsAssets/image_80.png)
+
+
 
 <table>
   <tr>
@@ -1079,13 +1078,13 @@ For more document template related information, refer this [link](https://docs.a
 </table>
 
 
-**	**
 
-**	****Output**
 
-**	**![image alt text](./docsAssets/image_81.png)
+**Output**
 
-**	**![image alt text](./docsAssets/image_82.png)
+![image alt text](./docsAssets/image_81.png)
+
+![image alt text](./docsAssets/image_82.png)
 
 **2.8 Business Rule Task**
 
@@ -1115,13 +1114,13 @@ You use the Camel task to send messages to, and receive messages from Apache Cam
 
 Use the Mule task to send messages to the Mule ESB (Enterprise Service Bus). You can find more information on Mule ESB **[her**e](https://www.mulesoft.com/resources/esb/what-mule-esb). Note that Mule is by default not installed and would need to be added by the system admin. A mule task is visualized as a rounded rectangle with the Mule logo in the top-left corner.
 
-**3. Structural Components:****                                                                                                                       **
+**3. Structural Components:**
 
 You use structural components to group multiple components in a sub process to reuse in a parent process definition, and to embed and call other process definitions from inside your own process.
 
 **3.1 Sub-process**
 
-A sub process is a single activity that contains activities, gateways, and events which form a process. A sub process is completely embedded inside a parent process. You can use a sub process to create a new scope for events. Events that are thrown during execution of the sub process, can be caught by **[Boundary event**s](https://docs.alfresco.com/process-services1.8/topics/boundary_events.html) on the boundary of the sub process, creating a scope for that event limited to just the sub process. 
+A sub process is a single activity that contains activities, gateways, and events which form a process. A sub process is completely embedded inside a parent process. You can use a sub process to create a new scope for events. Events that are thrown during execution of the sub process, can be caught by **[Boundary events]**(https://docs.alfresco.com/process-services1.8/topics/boundary_events.html) on the boundary of the sub process, creating a scope for that event limited to just the sub process. 
 
 Sub-processes must have the following characteristics:
 
@@ -1170,15 +1169,15 @@ A sub-process is visualized as a rounded rectangle:
 </table>
 
 
-**	**
+
 
 **	Type Mail Content and Subject**
 
-**	**![image alt text](./docsAssets/image_87.png)
+![image alt text](./docsAssets/image_87.png)
 
-**	**![image alt text](./docsAssets/image_88.png)
+![image alt text](./docsAssets/image_88.png)
 
-**	****Map Variables**
+**Map Variables**
 
 <table>
   <tr>
@@ -1202,11 +1201,11 @@ A sub-process is visualized as a rounded rectangle:
 </table>
 
 
-**	**
+
 
 **	Initialization variable**
 
-**	**![image alt text](./docsAssets/image_89.png)
+![image alt text](./docsAssets/image_89.png)
 
 <table>
   <tr>
@@ -1228,21 +1227,21 @@ execution.setVariable("innerIndex", 0);</td>
 </table>
 
 
-**	**
 
-**	**
+
+
 
 **Get Group Details**
 
-**	**![image alt text](./docsAssets/image_90.png)
+![image alt text](./docsAssets/image_90.png)
 
-**	****Change the Endpoint Property**
+**Change the Endpoint Property**
 
-**	**![image alt text](./docsAssets/image_91.png)
+![image alt text](./docsAssets/image_91.png)
 
-**	****Change Property Response mapping**
+**Change Property Response mapping**
 
-**	**![image alt text](./docsAssets/image_92.png)
+![image alt text](./docsAssets/image_92.png)
 
 ![image alt text](./docsAssets/image_93.png)
 
@@ -1267,11 +1266,11 @@ execution.setVariable("innerIndex", 0);</td>
 </table>
 
 
-**	****Increment variable and get rest data one by one**
+**Increment variable and get rest data one by one**
 
-**	**![image alt text](./docsAssets/image_95.png)
+![image alt text](./docsAssets/image_95.png)
 
-**	**
+
 
 <table>
   <tr>
@@ -1298,19 +1297,19 @@ execution.setVariable("innerIndex", i);
 </table>
 
 
-**	**
+
 
 **Send Mail**
 
-**	**![image alt text](./docsAssets/image_96.png)
+![image alt text](./docsAssets/image_96.png)
 
-**	**
 
-**	****Output**
 
-**	**![image alt text](./docsAssets/image_97.png)
+**Output**
 
-**	**After press ‘COMPLETE’ , it will send mail to all the users in User group.
+![image alt text](./docsAssets/image_97.png)
+
+After press ‘COMPLETE’ , it will send mail to all the users in User group.
 
 	
 
@@ -1330,7 +1329,7 @@ An event sub-process is a sub-process that is triggered by an event. You can use
 
 A call activity is used to execute another process definition as part of the current process instance. The main difference between a sub-process and a call activity is that the call activity does not share context with the process instance. Process variables are explicitly mapped between the process instance and the call activity.
 
-**4. Gateways:****                                                                                                                                               **
+**4. Gateways:**                                                                                                                                               **
 
 You use gateways to control the flow of execution in your process. As the term gateway suggests, it is a gating mechanism that either allows or prevents passage of a token through the gateway. As tokens arrive at a gateway, they can be merged together on input and/or split apart on output from the gateway. A gateway is displayed as a diamond, with an icon inside. The icon depicts the type of gateway.
 
@@ -1459,21 +1458,21 @@ A boundary error event catches an error that is thrown within the boundaries of 
 
 **	Type Mail Content and Subject**
 
-**	**![image alt text](./docsAssets/image_107.png)
+![image alt text](./docsAssets/image_107.png)
 
-**	**![image alt text](./docsAssets/image_108.png)
+![image alt text](./docsAssets/image_108.png)
 
-**	**
 
-**	**
+
+
 
 **Map Variables**
 
-**	**![image alt text](./docsAssets/image_109.png)
+![image alt text](./docsAssets/image_109.png)
 
 **	Initialization variable**
 
-**	**![image alt text](./docsAssets/image_110.png)
+![image alt text](./docsAssets/image_110.png)
 
 <table>
   <tr>
@@ -1523,15 +1522,15 @@ execution.setVariable("groupSize", data.total);</td>
 </table>
 
 
-**	**
 
-**	**![image alt text](./docsAssets/image_113.png)
 
-**	**
+![image alt text](./docsAssets/image_113.png)
+
+
 
 **	Get Group Member one by one**
 
-**	**![image alt text](./docsAssets/image_114.png)**	**
+![image alt text](./docsAssets/image_114.png)
 
 <table>
   <tr>
@@ -1557,13 +1556,13 @@ execution.setVariable("mailbody", execution.getVariable("mailbody"));</td>
 </table>
 
 
-**	**
+
 
 **Waiting  for Approval**
 
-**	**![image alt text](./docsAssets/image_115.png)
+![image alt text](./docsAssets/image_115.png)
 
-**	**![image alt text](./docsAssets/image_116.png)
+![image alt text](./docsAssets/image_116.png)
 
 ![image alt text](./docsAssets/image_117.png)
 
@@ -1592,7 +1591,7 @@ execution.setVariable("index",i);</td>
 </table>
 
 
-**	**
+
 
 ![image alt text](./docsAssets/image_119.png)
 
@@ -1634,7 +1633,7 @@ A boundary signal event listens to a signal being fired (from within the process
 
 For backend code, refer this [link](https://github.com/muraai/aps-training-materials/blob/master/src/main/java/com/activiti/extension/bean/TrainingListener.java).
 
-**	**Make the above java code to jar file  and put on the folder path
+Make the above java code to jar file  and put on the folder path
 
 **C:\..\process-services-1.9.0.3\tomcat\webapps\activiti-app\WEB-INF\lib**
 
@@ -1672,7 +1671,7 @@ An intermediate catching event is a step in the process where the process needs 
 
 ![image alt text](./docsAssets/image_134.png)
 
-				         1                    2                 3
+				   
 
 1. Intermediate Timer catching event
 
@@ -1702,15 +1701,15 @@ An intermediate event is displayed as two concentric circles which may contain a
 
 ![image alt text](./docsAssets/image_137.png)
 
-**	**
+
 
 **	Intermediate signal catching event**
 
 ![image alt text](./docsAssets/image_138.png)
 
-**	****Intermediate Message catching event Example**
+**Intermediate Message catching event Example**
 
-**	**
+
 
 **Create the process**
 
@@ -1736,7 +1735,7 @@ You use an end event to signify the end of a process or sub-process, or the end 
 
 **7.1 None End Event**
 
-**	**A none end event ends the current path of execution. 
+A none end event ends the current path of execution. 
 
 	![image alt text](./docsAssets/image_144.png)
 
@@ -1758,7 +1757,7 @@ The form editor provides a powerful drag and drop interface to let you design fo
 
 **Form Controls**
 
-**	**The form controls for each field determines how the field is displayed and handled.
+The form controls for each field determines how the field is displayed and handled.
 
 	For more information about form control, refer this [link](https://docs.alfresco.com/process-services1.8/concepts/ps-form-controls.html).
 
@@ -1774,7 +1773,7 @@ You can share your app definition to one or more users and groups. So that selec
 
 ![image alt text](./docsAssets/image_147.png) 
 
-**NOTE:**** **Only Superuser has a capability to share the app definitions.
+**NOTE:** Only Superuser has a capability to share the app definitions.
 
 **---------------------------------------------------- END -------------------------------------------------------**
 
