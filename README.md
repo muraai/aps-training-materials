@@ -76,11 +76,11 @@ The following object groups are shown in a collapsible list in the palette. The 
 
 **Intermediate catching events** - An intermediate catching event is a step in the process where the process needs to wait for a specific trigger
 
-**Intermediate throwing events**An intermediate throw event is used to explicitly throw an event of a certain type.
+**Intermediate throwing events** - An intermediate throw event is used to explicitly throw an event of a certain type.
 
-**End events**You use an end event to signify the end of a process or sub-process, or the end of a path in a process or sub-process.
+**End events** - You use an end event to signify the end of a process or sub-process, or the end of a path in a process or sub-process.
 
-**Swimlanes**You use swimlanes to display activities in your process divided by business function or participant group.
+**Swimlanes** - You use swimlanes to display activities in your process divided by business function or participant group.
 
 **1. Start Event:**
 
@@ -156,7 +156,7 @@ Services, the Referenced form property should be used instead.</td>
 
 In this BPMN diagram example, the process shows that we first get our eggs, then scramble them and eat them for breakfast. We don’t indicate why the process was started. It could be because we were hungry, because we’re on a dietary schedule, or because our mom told us we had to eat our breakfast. We don’t know, or care. Trying to figure out what triggers the egg scrambling process doesn’t help us understand the process any better – so we use the none start event.
 
-**1.2 Start Timer Event - **
+**1.2 Start Timer Event**
 
 A timer start event initiates a process instance at specific time. You can use it both for processes which must start only once and for processes that must start in repeated time intervals.
 
@@ -222,7 +222,7 @@ The timer event is used in BPMN diagrams to indicate that the process begins at 
 
 In our example, on the actor’s wedding anniversary, he buys a gift, gives it to his spouse, and then enjoys their anniversary. This process is triggered by the timing of the anniversary.
 
-**1.3 Start Signal Event - **
+**1.3 Start Signal Event**
 
 A signal start event starts a process instance using a named signal. The signal is fired from a process instance using the intermediary signal throw event (or programmatically through the java or REST API). In both cases, a process instance for any process definitions that have a signal start event with the same name are started. You can select a synchronous or asynchronous start of the process instances.
 
@@ -266,7 +266,7 @@ A signal start event is visualized as a circle with a triangle inside. The trian
 </table>
 
 
-**1.4 Start Message Event -**
+**1.4 Start Message Event**
 
 A message start event starts a process instance using a named message. It is mainly used for starting process instances from external systems. It is depicted as a circle with an envelope icon inside. The envelope is white inside.
 
@@ -322,7 +322,7 @@ When a process is initiated by an outside actor sending us a message (telling us
 
 This BPMN diagram example shows a process of getting water, giving it to a child, and returning to bed. The process is initiated by the receipt of a message. We become aware that the child is complaining of thirst and unable to sleep. When we receive that message, we initiate the process of getting water for the child.
 
-**1.5 Start Error Event -**
+**1.5 Start Error Event**
 
 An error start event triggers an event Sub-Process. An error start event can’t be used for starting a process instance.
 
@@ -478,29 +478,29 @@ Required:
 </table>
 
 
-**	Get Group Members:**
+**Get Group Members:**
 
 ![image alt text](./docsAssets/image_25.png)
 
-**	Display Group Members:**
+**Display Group Members:**
 
 ![image alt text](./docsAssets/image_26.png)
 
-	![image alt text](./docsAssets/image_27.png)
+![image alt text](./docsAssets/image_27.png)
 
-	![image alt text](./docsAssets/image_28.png)
+![image alt text](./docsAssets/image_28.png)
 
-	![image alt text](./docsAssets/image_29.png)
+![image alt text](./docsAssets/image_29.png)
 
-	![image alt text](./docsAssets/image_30.png)
+![image alt text](./docsAssets/image_30.png)
 
 	
 
-	**Backend Code:**
+**Backend Code:**
 
 For backend code, refer this [link](https://github.com/muraai/aps-training-materials/blob/master/src/main/java/com/activiti/extension/conf/MyJavaDelegate.java).
 
-**	Make the above java code to jar file  and put on the folder path:**
+**Make the above java code to jar file  and put on the folder path:**
 
 C:\Program Files (x86)\alfresco\process-services-1.9.0.3\tomcat\webapps\activiti-app\WEB-INF\lib
 
@@ -522,65 +522,65 @@ For script task, change the properties in both the files.
 
 	validator.editor.bpmn.disable.executionlistener=false
 
-validator.editor.bpmn.disable.cameltask=false
+	validator.editor.bpmn.disable.cameltask=false
 
-validator.editor.bpmn.disable.muletask=false
+	validator.editor.bpmn.disable.muletask=false
 
-validator.editor.bpmn.disable.mailtask=false
+	validator.editor.bpmn.disable.mailtask=false
 
-**validator.editor.bpmn.disable.scripttask=false**
+	**validator.editor.bpmn.disable.scripttask=false**
 
-**validator.editor.bpmn.disable.scripttask.groovy=false**
+	**validator.editor.bpmn.disable.scripttask.groovy=false**
 
-validator.editor.bpmn.disable.manualtask=false
+	validator.editor.bpmn.disable.manualtask=false
 
-validator.editor.bpmn.disable.businessruletask=false
+	validator.editor.bpmn.disable.businessruletask=false
 
-validator.editor.bpmn.disable.servicetask=false
+	validator.editor.bpmn.disable.servicetask=false
 
-validator.editor.bpmn.disable.intermediatethrowevent=false
+	validator.editor.bpmn.disable.intermediatethrowevent=false
 
-validator.editor.bpmn.disable.startevent.timer=false
+	validator.editor.bpmn.disable.startevent.timer=false
 
-validator.editor.bpmn.disable.startevent.signal=false
+	validator.editor.bpmn.disable.startevent.signal=false
 
-validator.editor.bpmn.disable.startevent.message=false
+	validator.editor.bpmn.disable.startevent.message=false
 
-validator.editor.bpmn.disable.startevent.error=false
+	validator.editor.bpmn.disable.startevent.error=false
 
-validator.editor.bpmn.disable.startevent.timecycle=false
+	validator.editor.bpmn.disable.startevent.timecycle=false
 
-validator.editor.bpmn.disable.loopback=false
+	validator.editor.bpmn.disable.loopback=false
 
-validator.editor.bpmn.limit.servicetask.only-class=false
+	validator.editor.bpmn.limit.servicetask.only-class=false
 
-validator.editor.bpmn.limit.multiinstance.loop=false
+	validator.editor.bpmn.limit.multiinstance.loop=false
 
-validator.editor.bpmn.limit.usertask.assignment.only-idm=false
+	validator.editor.bpmn.limit.usertask.assignment.only-idm=false
 
-editor.form.javascript.disable=false
+	editor.form.javascript.disable=false
 
-javascript.secure-scripting.enabled=false
+	javascript.secure-scripting.enabled=false
 
-## only classes in activiti/javascript-whitelist-classes.conf will be allowed
+	#only classes in activiti/javascript-whitelist-classes.conf will be allowed
 
-**javascript.secure-scripting.enable-class-whitelisting=true**
+	**javascript.secure-scripting.enable-class-whitelisting=true**
 
-## max stack depth to avoid stackoverflow exceptions 
+	#max stack depth to avoid stackoverflow exceptions 
 
-javascript.secure-scripting.max-stack-depth=100
+	javascript.secure-scripting.max-stack-depth=100
 
-## max execution time in milliseconds
+	#max execution time in milliseconds
 
-javascript.secure-scripting.max-execution-time=3000
+	javascript.secure-scripting.max-execution-time=3000
 
-## max memory in bytes (eg. 5242880 = 5MB) 
+	#max memory in bytes (eg. 5242880 = 5MB) 
 
-javascript.secure-scripting.max-memory=5242880
+	javascript.secure-scripting.max-memory=5242880
 
-## number instructions to execute before checking max memory & max execution time 
+	#number instructions to execute before checking max memory & max execution time 
 
-javascript.secure-scripting.instructions-before-callback=100
+	javascript.secure-scripting.instructions-before-callback=100
 
 Uncomment all the properties in process-services-1.9.0.3\tomcat\webapps\activiti-app\WEB-INF\classes\activiti\whitelisted-scripts.conf
 
@@ -1112,7 +1112,7 @@ You use the Camel task to send messages to, and receive messages from Apache Cam
 
 **2.13 Mule Task**
 
-Use the Mule task to send messages to the Mule ESB (Enterprise Service Bus). You can find more information on Mule ESB **[her**e](https://www.mulesoft.com/resources/esb/what-mule-esb). Note that Mule is by default not installed and would need to be added by the system admin. A mule task is visualized as a rounded rectangle with the Mule logo in the top-left corner.
+Use the Mule task to send messages to the Mule ESB (Enterprise Service Bus). You can find more information on Mule ESB [here](https://www.mulesoft.com/resources/esb/what-mule-esb). Note that Mule is by default not installed and would need to be added by the system admin. A mule task is visualized as a rounded rectangle with the Mule logo in the top-left corner.
 
 **3. Structural Components:**
 
@@ -1171,7 +1171,7 @@ A sub-process is visualized as a rounded rectangle:
 
 
 
-**	Type Mail Content and Subject**
+**Type Mail Content and Subject**
 
 ![image alt text](./docsAssets/image_87.png)
 
@@ -1203,7 +1203,7 @@ A sub-process is visualized as a rounded rectangle:
 
 
 
-**	Initialization variable**
+**Initialization variable**
 
 ![image alt text](./docsAssets/image_89.png)
 
@@ -1456,7 +1456,7 @@ A boundary error event catches an error that is thrown within the boundaries of 
 </table>
 
 
-**	Type Mail Content and Subject**
+**Type Mail Content and Subject**
 
 ![image alt text](./docsAssets/image_107.png)
 
@@ -1470,7 +1470,7 @@ A boundary error event catches an error that is thrown within the boundaries of 
 
 ![image alt text](./docsAssets/image_109.png)
 
-**	Initialization variable**
+**Initialization variable**
 
 ![image alt text](./docsAssets/image_110.png)
 
@@ -1528,7 +1528,7 @@ execution.setVariable("groupSize", data.total);</td>
 
 
 
-**	Get Group Member one by one**
+**Get Group Member one by one**
 
 ![image alt text](./docsAssets/image_114.png)
 
@@ -1703,7 +1703,7 @@ An intermediate event is displayed as two concentric circles which may contain a
 
 
 
-**	Intermediate signal catching event**
+**Intermediate signal catching event**
 
 ![image alt text](./docsAssets/image_138.png)
 
@@ -1737,7 +1737,7 @@ You use an end event to signify the end of a process or sub-process, or the end 
 
 A none end event ends the current path of execution. 
 
-	![image alt text](./docsAssets/image_144.png)
+![image alt text](./docsAssets/image_144.png)
 
 **7.2 Error End Event**
 
@@ -1759,7 +1759,7 @@ The form editor provides a powerful drag and drop interface to let you design fo
 
 The form controls for each field determines how the field is displayed and handled.
 
-	For more information about form control, refer this [link](https://docs.alfresco.com/process-services1.8/concepts/ps-form-controls.html).
+For more information about form control, refer this [link](https://docs.alfresco.com/process-services1.8/concepts/ps-form-controls.html).
 
 **Step Editor**
 
