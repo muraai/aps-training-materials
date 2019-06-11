@@ -378,6 +378,7 @@ A user task enables you to model work to be done by a human actor. When process 
 
 ![image alt text](./docsAssets/image_12.png)
 
+
 **Example:**
 
 **Create process and change the property for Variable**
@@ -386,6 +387,8 @@ A user task enables you to model work to be done by a human actor. When process 
 
 ![image alt text](./docsAssets/image_14.png)
 
+**NOTE:** In this way, we can set the global variables which we can use in the model.
+
 ![image alt text](./docsAssets/image_15.png)
 
 ![image alt text](./docsAssets/image_16.png)
@@ -393,6 +396,8 @@ A user task enables you to model work to be done by a human actor. When process 
 **Mapping the variables**
 
 ![image alt text](./docsAssets/image_17.png)
+
+**NOTE:** In this way, we can map the variables.
 
 This example is continued in Script task and then mail task.
 
@@ -1331,7 +1336,7 @@ An event sub-process is a sub-process that is triggered by an event. You can use
 
 A call activity is used to execute another process definition as part of the current process instance. The main difference between a sub-process and a call activity is that the call activity does not share context with the process instance. Process variables are explicitly mapped between the process instance and the call activity.
 
-**4. Gateways:**                                                                                                                                               **
+**4. Gateways:**
 
 You use gateways to control the flow of execution in your process. As the term gateway suggests, it is a gating mechanism that either allows or prevents passage of a token through the gateway. As tokens arrive at a gateway, they can be merged together on input and/or split apart on output from the gateway. A gateway is displayed as a diamond, with an icon inside. The icon depicts the type of gateway.
 
@@ -1748,6 +1753,10 @@ You use the end error event to throw an error and end the current path of execut
 The error can be caught by an intermediate boundary error event that matches the error. If no matching boundary error event is found, an exception will be thrown.
 
 ![image alt text](./docsAssets/image_145.png)
+
+**Example**
+
+You can refer the Boundary Error Event example. In that, we are using Error end event inside the subprocess.
 
 **Form Editor**
 
