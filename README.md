@@ -1776,6 +1776,44 @@ The form controls for each field determines how the field is displayed and handl
 
 For more information about form control, refer this [link](https://docs.alfresco.com/process-services1.8/concepts/ps-form-controls.html).
 
+**Hiding and showing form fields depending on conditions**
+
+You can hide or show any form fields depending on some conditions. That means you can change the visibility property of any field.
+
+**Example**
+
+Create form
+
+![image alt text](./docsAssets/image_149.png)
+
+**Edit Contact field**
+
+![image alt text](./docsAssets/image_150.png)
+
+**Output**
+
+![image alt text](./docsAssets/image_151.png)
+
+![image alt text](./docsAssets/image_152.png)
+
+**Form Tabs**
+
+You can also add multiple tabs in single form.
+
+![image alt text](./docsAssets/image_153.png)
+
+**Form field validation**
+
+You can apply some validations to form fields.
+
+**Create form**
+
+![image alt text](./docsAssets/image_154.png)
+
+**Edit Email field to apply validation**
+
+![image alt text](./docsAssets/image_155.png)
+
 **Step Editor**
 
 The Step Editor guides you through creating a business process through a sequence of simple steps. The processes you create using the step editor do not exploit the full power of BPMN 2.0 like those created by the BPMN editor, but you can use it to design both simple and quite complex process models, without knowledge of BPMN 2.0.
