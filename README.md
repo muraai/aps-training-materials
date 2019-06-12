@@ -934,6 +934,10 @@ Example for College ID.docx document template [link](https://github.com/muraai/a
 
 ![image alt text](./docsAssets/image_77.png)
 
+![image alt text](./docsAssets/image_148.png)
+
+**NOTE:** In this way, you can define form Outcomes.
+
 
 
 **Map Variables**
